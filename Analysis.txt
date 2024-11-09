@@ -1,0 +1,9 @@
+Method 				ArrayList 	Runtime 		LinkedList Runtime 		Explanation
+
+boolean add(T element)		O(N)			O(N)				One loop is operated in both lists 
+
+boolean rotate(int n)		O(N²)			O(N)				ArrayList operates nested loop while Linked List operates three non-nested loops
+
+void merge(List<T> otherList)	O(N)			O(N)				Non-nested loops are operated in both lists which indicate the linear complexity
+
+void reverse()			O(N)			O(N)				One loop is operated in both lists
