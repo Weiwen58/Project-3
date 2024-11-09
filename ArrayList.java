@@ -1,4 +1,3 @@
-// Written by chen6704
 public class ArrayList<T extends Comparable<T>> implements List<T>{
     private boolean isSorted;
     private T[] arrayList;
